@@ -5,8 +5,8 @@
 }
 
 #img {
-    width: 400px;
-    margin-bottom: 50px;
+    width: 650px !important;
+    margin-bottom: 50px !important;
 }
 
 .line {
@@ -47,6 +47,10 @@
     font-size: 20px;
 }
 
+.menu {
+    position: fixed;
+}
+
 .link:hover {
     background-color:dodgerblue;
 }
@@ -76,4 +80,8 @@ img {
 
 img:hover {
     transform:scale(0.9);
+}
+
+#Contact {
+    background-color:crimson;
 }
